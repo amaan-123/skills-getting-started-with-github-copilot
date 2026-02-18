@@ -1,15 +1,11 @@
 {
   "name": "Python 3",
-  "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "image": "mcr.microsoft.com/devcontainers/python:3.14",
   "forwardPorts": [8000],
   "postCreateCommand": "pip install -r requirements.txt",
   "customizations": {
     "vscode": {
-      "extensions": [
-        "GitHub.copilot",
-        "ms-python.python",
-        "ms-python.debugpy"
-      ]
+      "extensions": ["GitHub.copilot", "ms-python.python", "ms-python.debugpy"]
     }
   }
 }
